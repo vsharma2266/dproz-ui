@@ -1,0 +1,28 @@
+.dproz-header {
+  padding: 12px;
+
+  .navigation {
+    display: flex;
+    align-items: center;
+
+    span {
+      cursor: pointer;
+      outline: none;
+      margin-left: 30px;
+      font-size: .875em;
+      font-weight: 600;
+    }
+    .btn {
+      border-color: transparent;
+      border-radius: 20px;
+    }
+  }
+}
+
+.dproz-logo {
+  text-align: center;
+
+  img {
+    height: 50px
+  }
+}
